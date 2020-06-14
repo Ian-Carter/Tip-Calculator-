@@ -15,6 +15,7 @@
 		EA1DA59724943A9900E3A505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1DA59524943A9900E3A505 /* LaunchScreen.storyboard */; };
 		EA1DA5A224943A9900E3A505 /* TipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1DA5A124943A9900E3A505 /* TipTests.swift */; };
 		EA1DA5AD24943A9900E3A505 /* TipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1DA5AC24943A9900E3A505 /* TipUITests.swift */; };
+		EA1DA5BB2495D8E600E3A505 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1DA5BA2495D8E600E3A505 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA1DA58724943A9500E3A505 /* Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1DA58724943A9500E3A505 /* AlwaysTip!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlwaysTip!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1DA58A24943A9500E3A505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA1DA58C24943A9500E3A505 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EA1DA58E24943A9500E3A505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		EA1DA5A824943A9900E3A505 /* TipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1DA5AC24943A9900E3A505 /* TipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipUITests.swift; sourceTree = "<group>"; };
 		EA1DA5AE24943A9900E3A505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1DA5BA2495D8E600E3A505 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,7 @@
 		EA1DA58824943A9500E3A505 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA1DA58724943A9500E3A505 /* Tip.app */,
+				EA1DA58724943A9500E3A505 /* AlwaysTip!.app */,
 				EA1DA59D24943A9900E3A505 /* TipTests.xctest */,
 				EA1DA5A824943A9900E3A505 /* TipUITests.xctest */,
 			);
@@ -103,6 +105,7 @@
 				EA1DA58C24943A9500E3A505 /* SceneDelegate.swift */,
 				EA1DA58E24943A9500E3A505 /* ViewController.swift */,
 				EA1DA59024943A9500E3A505 /* Main.storyboard */,
+				EA1DA5BA2495D8E600E3A505 /* SettingsViewController.swift */,
 				EA1DA59324943A9900E3A505 /* Assets.xcassets */,
 				EA1DA59524943A9900E3A505 /* LaunchScreen.storyboard */,
 				EA1DA59824943A9900E3A505 /* Info.plist */,
@@ -145,7 +148,7 @@
 			);
 			name = Tip;
 			productName = Tip;
-			productReference = EA1DA58724943A9500E3A505 /* Tip.app */;
+			productReference = EA1DA58724943A9500E3A505 /* AlwaysTip!.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EA1DA59C24943A9900E3A505 /* TipTests */ = {
@@ -262,6 +265,7 @@
 				EA1DA58F24943A9500E3A505 /* ViewController.swift in Sources */,
 				EA1DA58B24943A9500E3A505 /* AppDelegate.swift in Sources */,
 				EA1DA58D24943A9500E3A505 /* SceneDelegate.swift in Sources */,
+				EA1DA5BB2495D8E600E3A505 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,8 +444,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CodePath.Tip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = IanCarter.Tip;
+				PRODUCT_NAME = "AlwaysTip!";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,8 +461,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CodePath.Tip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = IanCarter.Tip;
+				PRODUCT_NAME = "AlwaysTip!";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -3,7 +3,7 @@
 //  Tip
 //
 //  Created by Ian Carter on 6/12/20.
-//  Copyright © 2020 CodePath. All rights reserved.
+//  Copyright © 2020 Ian Carter. All rights reserved.
 //
 
 import UIKit
